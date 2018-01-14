@@ -1,0 +1,35 @@
+{
+  "name": "frontend-boilerplate",
+  "version": "1.0.0",
+  "description": "A minimal frontend boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "parcel index.html",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "test": "jest --coverage",
+    "lint": "eslint assets",
+    "lint-fix": "eslint --fix assets"
+  },
+  "keywords": [ "boilerplate", "frontend", "parceljs", "scss", "babel", "eslint", "vuejs", "jest", "testing", "lint"],
+  "author": "Sofia F. Rocha",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^22.0.6",
+    "node-sass": "^4.7.2",
+    "normalize.css": "^7.0.0",
+    "parcel-bundler": "^1.4.1",
+    "parcel-plugin-vue": "^1.5.0",
+    "vue-template-compiler": "^2.5.13"
+  }
+}
