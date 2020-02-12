@@ -26,18 +26,19 @@
   "author": "Sofia F. Rocha",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
     "vue": "^2.6.11",
     "vue-hot-reload-api": "^2.3.4"
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.1.0",
     "autoprefixer": "^7.2.5",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
+    "babel-jest": "^25.1.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.12.0",
-    "jest": "^22.4.4",
+    "jest": "^25.1.0",
     "normalize.css": "^7.0.0",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.24.2",
